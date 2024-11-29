@@ -570,6 +570,7 @@ taskdelete.addEventListener('click', async (e) => {
   if (taskId == '') return;
   let targetcontainer = app.stage.getChildByLabel(taskId);
   if (targetcontainer) {
+    deletedistinctTask(taskId);
     targetcontainer.destroy({ children: true, texture: true, textureSource: true, context: true });
     // focus destroy
     blurTask();
