@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mycalendar</title>
+  <script type="module" crossorigin src="/canvas_calendar/assets/index-NlWXM_4p.js"></script>
+  <link rel="stylesheet" crossorigin href="/canvas_calendar/assets/index-DkqOPTcG.css">
+</head>
+
+<body>
+  <div class="row">
+    <button autofocus id="arrowleft">◀</button>
+    <div id="calendar_month"></div>
+    <button id="arrowright">▶</button>
+  </div>
+  <div class="row">
+    <input type="color" id="taskcolor">
+    <input type="text" id="tasktitle" maxlength="30">
+    <button id="taskchange" data-taskid="">TASK CHANGE</button>
+    <button id="taskdelete" data-taskid="">TASK DELETE</button>
+  </div>
+  <div class="row">
+    <button id="calendarsave" data-taskid="">CALENDAR SAVE</button>
+  </div>
+  <div id="gr">
+    <canvas id="padcanvas"></canvas>
+    <canvas id="headcanvas"></canvas>
+    <canvas id="leftcanvas"></canvas>
+    <div id="appmain"></div>
+  </div>
+</body>
+
+</html>
