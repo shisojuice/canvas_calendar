@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.4.1"
+    "vite": "^6.0.2"
   },
   "dependencies": {
     "@formkit/tempo": "^0.1.2",

@@ -546,7 +546,7 @@ const pointerUp = async (e) => {
   createStart = { x: -1, y: -1 };
 }
 
-app.stage.on('pointerup', await pointerUp);
+app.stage.on('pointerup', pointerUp);
 app.stage.on('pointerupoutside', pointerUp);
 
 
